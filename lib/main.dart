@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-void main() => runApp(MyApp("main"));
+void main() => runApp(MyApp(window.defaultRouteName));
 
 void newMain() => runApp(NewMainApp());
 
